@@ -1,0 +1,13 @@
+@import './mixins/typography';
+
+html {
+  @include fluid-type($min_width, $max_width, $min_font, $max_font);
+  letter-spacing: 0.4px;
+}
+
+
+.App {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}

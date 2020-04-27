@@ -26,7 +26,7 @@ function LoginForm() {
 
     return <div className="loginForm__card">
             <Logo className="loginForm__card__greenlogo"/>
-            <h1 className="loginForm__card__loginTitle">Example Login screen</h1>
+            <h1 className="loginForm__card__loginTitle">Example login screen</h1>
              
              <p className="loginForm__card__subText">Getting started with Green</p>
              <form onSubmit={handleSubmit}>
